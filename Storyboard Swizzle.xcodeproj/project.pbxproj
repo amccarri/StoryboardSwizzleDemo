@@ -18,6 +18,9 @@
 		3D68D882171F8E7E0072B226 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D68D881171F8E7E0072B226 /* Default-568h@2x.png */; };
 		3D68D885171F8E7E0072B226 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D68D883171F8E7E0072B226 /* MainStoryboard.storyboard */; };
 		3D68D888171F8E7E0072B226 /* SWIZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D68D887171F8E7E0072B226 /* SWIZViewController.m */; };
+		3D68D890171F9C4F0072B226 /* StoryboardSwizzleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D68D88F171F9C4F0072B226 /* StoryboardSwizzleViewController.m */; };
+		3D68D892171F9CC80072B226 /* Secondary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D68D891171F9CC80072B226 /* Secondary.storyboard */; };
+		3D68D894171F9CD50072B226 /* Tertiary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D68D893171F9CD50072B226 /* Tertiary.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,10 @@
 		3D68D884171F8E7E0072B226 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		3D68D886171F8E7E0072B226 /* SWIZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWIZViewController.h; sourceTree = "<group>"; };
 		3D68D887171F8E7E0072B226 /* SWIZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWIZViewController.m; sourceTree = "<group>"; };
+		3D68D88E171F9C4F0072B226 /* StoryboardSwizzleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryboardSwizzleViewController.h; sourceTree = "<group>"; };
+		3D68D88F171F9C4F0072B226 /* StoryboardSwizzleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryboardSwizzleViewController.m; sourceTree = "<group>"; };
+		3D68D891171F9CC80072B226 /* Secondary.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Secondary.storyboard; sourceTree = "<group>"; };
+		3D68D893171F9CD50072B226 /* Tertiary.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tertiary.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +90,16 @@
 		3D68D871171F8E7E0072B226 /* Storyboard Swizzle */ = {
 			isa = PBXGroup;
 			children = (
+				3D68D88E171F9C4F0072B226 /* StoryboardSwizzleViewController.h */,
+				3D68D88F171F9C4F0072B226 /* StoryboardSwizzleViewController.m */,
 				3D68D87A171F8E7E0072B226 /* SWIZAppDelegate.h */,
 				3D68D87B171F8E7E0072B226 /* SWIZAppDelegate.m */,
 				3D68D883171F8E7E0072B226 /* MainStoryboard.storyboard */,
 				3D68D886171F8E7E0072B226 /* SWIZViewController.h */,
 				3D68D887171F8E7E0072B226 /* SWIZViewController.m */,
 				3D68D872171F8E7E0072B226 /* Supporting Files */,
+				3D68D891171F9CC80072B226 /* Secondary.storyboard */,
+				3D68D893171F9CD50072B226 /* Tertiary.storyboard */,
 			);
 			path = "Storyboard Swizzle";
 			sourceTree = "<group>";
@@ -164,6 +175,8 @@
 				3D68D880171F8E7E0072B226 /* Default@2x.png in Resources */,
 				3D68D882171F8E7E0072B226 /* Default-568h@2x.png in Resources */,
 				3D68D885171F8E7E0072B226 /* MainStoryboard.storyboard in Resources */,
+				3D68D892171F9CC80072B226 /* Secondary.storyboard in Resources */,
+				3D68D894171F9CD50072B226 /* Tertiary.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +190,7 @@
 				3D68D878171F8E7E0072B226 /* main.m in Sources */,
 				3D68D87C171F8E7E0072B226 /* SWIZAppDelegate.m in Sources */,
 				3D68D888171F8E7E0072B226 /* SWIZViewController.m in Sources */,
+				3D68D890171F9C4F0072B226 /* StoryboardSwizzleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
