@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="DQM-Ed-6Mv">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4457.6" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="DQM-Ed-6Mv">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3682.6"/>
     </dependencies>
     <scenes>
         <!--Storyboard Swizzle View Controller - Tertiary-->
         <scene sceneID="XDD-xU-hYA">
             <objects>
                 <viewController id="vUG-Yy-MPw" customClass="StoryboardSwizzleViewController" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <tabBarItem key="tabBarItem" title="Tertiary" id="x9v-Se-bsH"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="storyboardName" value="Tertiary"/>
@@ -20,13 +22,14 @@
         <!--Storyboard Swizzle View Controller - Secondary-->
         <scene sceneID="D29-jZ-zar">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LtI-45-vul" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="rvc-UP-Kf9" customClass="StoryboardSwizzleViewController" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <tabBarItem key="tabBarItem" title="Secondary" id="oC4-9t-DIx"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="storyboardName" value="Secondary"/>
                     </userDefinedRuntimeAttributes>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LtI-45-vul" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="796" y="-59"/>
         </scene>
@@ -34,7 +37,8 @@
         <scene sceneID="1JV-fA-CWs">
             <objects>
                 <tabBarController definesPresentationContext="YES" id="DQM-Ed-6Mv" sceneMemberID="viewController">
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="UIc-1V-oeC">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -50,11 +54,6 @@
             <point key="canvasLocation" x="262" y="268"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="StoryboardSwizzleViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/StoryboardSwizzleViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

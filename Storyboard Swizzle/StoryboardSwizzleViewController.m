@@ -11,7 +11,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    if (self.parentViewController && ![self.parentViewController isKindOfClass:UITabBarController.class] && ![self.parentViewController isKindOfClass:UINavigationController.class]) {
+    if (self.parentViewController &&
+        ![self.parentViewController isKindOfClass:UITabBarController.class] &&
+        ![self.parentViewController isKindOfClass:UINavigationController.class]) {
         // replace self with the target view controller
         [self.parentViewController addChildViewController:self.targetViewController];
         [self.view.superview insertSubview:self.targetViewController.view aboveSubview:self.view];

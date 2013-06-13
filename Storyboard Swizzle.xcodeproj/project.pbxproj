@@ -21,6 +21,7 @@
 		3D68D890171F9C4F0072B226 /* StoryboardSwizzleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D68D88F171F9C4F0072B226 /* StoryboardSwizzleViewController.m */; };
 		3D68D892171F9CC80072B226 /* Secondary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D68D891171F9CC80072B226 /* Secondary.storyboard */; };
 		3D68D894171F9CD50072B226 /* Tertiary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D68D893171F9CD50072B226 /* Tertiary.storyboard */; };
+		3D68D8D1171FA56B0072B226 /* SWIZSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D68D8D0171FA56A0072B226 /* SWIZSecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,8 @@
 		3D68D88F171F9C4F0072B226 /* StoryboardSwizzleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryboardSwizzleViewController.m; sourceTree = "<group>"; };
 		3D68D891171F9CC80072B226 /* Secondary.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Secondary.storyboard; sourceTree = "<group>"; };
 		3D68D893171F9CD50072B226 /* Tertiary.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tertiary.storyboard; sourceTree = "<group>"; };
+		3D68D8CF171FA56A0072B226 /* SWIZSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWIZSecondViewController.h; sourceTree = "<group>"; };
+		3D68D8D0171FA56A0072B226 /* SWIZSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWIZSecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,8 @@
 				3D68D872171F8E7E0072B226 /* Supporting Files */,
 				3D68D891171F9CC80072B226 /* Secondary.storyboard */,
 				3D68D893171F9CD50072B226 /* Tertiary.storyboard */,
+				3D68D8CF171FA56A0072B226 /* SWIZSecondViewController.h */,
+				3D68D8D0171FA56A0072B226 /* SWIZSecondViewController.m */,
 			);
 			path = "Storyboard Swizzle";
 			sourceTree = "<group>";
@@ -191,6 +196,7 @@
 				3D68D87C171F8E7E0072B226 /* SWIZAppDelegate.m in Sources */,
 				3D68D888171F8E7E0072B226 /* SWIZViewController.m in Sources */,
 				3D68D890171F9C4F0072B226 /* StoryboardSwizzleViewController.m in Sources */,
+				3D68D8D1171FA56B0072B226 /* SWIZSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

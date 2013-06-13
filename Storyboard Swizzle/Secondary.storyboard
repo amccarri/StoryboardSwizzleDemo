@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4V4-kb-qVc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4457.6" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4V4-kb-qVc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3682.6"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
         <scene sceneID="gbS-Qx-NIb">
             <objects>
                 <navigationController definesPresentationContext="YES" id="4V4-kb-qVc" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Fje-Ef-ueX">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -19,20 +21,22 @@
             </objects>
             <point key="canvasLocation" x="-332" y="11"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="KdB-TL-E6P">
             <objects>
-                <viewController id="jN2-Bt-DiS" sceneMemberID="viewController">
+                <viewController id="jN2-Bt-DiS" customClass="SWIZSecondViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5Ux-YG-joM">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Secondary.storyboard" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Id-gz-4y4">
+                                <rect key="frame" x="80" y="66" width="161" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BUk-BK-XHF">
+                                <rect key="frame" x="72" y="195" width="176" height="18"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Click here to push Tertiary">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -46,6 +50,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Or just use the tabs" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JRn-Jg-Chp">
+                                <rect key="frame" x="88" y="263" width="144" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -53,14 +58,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="JRn-Jg-Chp" firstAttribute="centerX" secondItem="BUk-BK-XHF" secondAttribute="centerX" type="default" id="4pS-FU-EO9"/>
-                            <constraint firstItem="BUk-BK-XHF" firstAttribute="centerX" secondItem="5Id-gz-4y4" secondAttribute="centerX" type="default" id="BYh-Bg-QYS"/>
+                            <constraint firstItem="JRn-Jg-Chp" firstAttribute="centerX" secondItem="BUk-BK-XHF" secondAttribute="centerX" id="4pS-FU-EO9"/>
+                            <constraint firstItem="BUk-BK-XHF" firstAttribute="centerX" secondItem="5Id-gz-4y4" secondAttribute="centerX" id="BYh-Bg-QYS"/>
                             <constraint firstItem="JRn-Jg-Chp" firstAttribute="top" secondItem="5Ux-YG-joM" secondAttribute="top" constant="263" id="F7g-47-vVg"/>
                             <constraint firstItem="BUk-BK-XHF" firstAttribute="top" secondItem="5Ux-YG-joM" secondAttribute="top" constant="195" id="a5n-PG-bM6"/>
                             <constraint firstItem="5Id-gz-4y4" firstAttribute="top" secondItem="5Ux-YG-joM" secondAttribute="top" constant="66" id="j3p-Yy-DIR"/>
-                            <constraint firstItem="JRn-Jg-Chp" firstAttribute="centerX" secondItem="5Ux-YG-joM" secondAttribute="centerX" type="default" id="qDQ-Rd-MyM"/>
+                            <constraint firstItem="JRn-Jg-Chp" firstAttribute="centerX" secondItem="5Ux-YG-joM" secondAttribute="centerX" id="qDQ-Rd-MyM"/>
                         </constraints>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" id="MP2-3f-ZUx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6sw-wB-9FV" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -70,7 +76,8 @@
         <!--Storyboard Swizzle View Controller-->
         <scene sceneID="uO4-jb-QaZ">
             <objects>
-                <viewController id="QFv-EI-aYc" customClass="StoryboardSwizzleViewController" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="QFv-EI-aYc" customClass="StoryboardSwizzleViewController" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" id="gSu-fA-b2D"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="storyboardName" value="Tertiary"/>
@@ -82,14 +89,6 @@
             <point key="canvasLocation" x="812" y="10"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="StoryboardSwizzleViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/StoryboardSwizzleViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
